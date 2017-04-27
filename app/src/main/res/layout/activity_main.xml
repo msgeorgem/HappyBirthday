@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cash01"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:text="This much cash"
+        android:id="@+id/ThisMuch"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:text="we wish you!"
+        android:id="@+id/WeWish"
+        android:layout_below="@+id/ThisMuch"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:text="on your birthday"
+        android:id="@+id/OmYour"
+        android:layout_above="@+id/Lyla"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:text="Lyla!"
+        android:id="@+id/Lyla"
+        android:layout_above="@+id/Credits"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textSize="36sp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="From all Students with love"
+        android:id="@+id/Credits"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textSize="14sp"
+        android:paddingBottom="20dp"/>
+
+</RelativeLayout>
